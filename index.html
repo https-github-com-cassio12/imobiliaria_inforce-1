@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="Stylesheet" href="./css/estilo.css">
+        <script src="./js/funcoes.js"></script>
+        <title>Front End</title>
+    </head>
+
+        <body>
+            <div class="menu">
+            <img src="./imagens/logo_topo.png.webp">
+            <a href="index.html">Home</a>
+            <a href="sobrenos.html">Sobre nós</a>
+            <a href="servicos.html">Serviços</a>
+            <a href="fale_conosco.html">Contato</a>
+            </div>
+
+            <h2>Melhores Imóveis do Rio de Janeiro</h2>
+            <div class="imagem">
+            <img src="./imagens/slideimagem1.png" width="1350px" height="350px">
+            </div>
+            <h2>Venha conhecer a Imobiliária Inforce.</h2>
+            </div>
+
+            <div class="proxima_img">
+            <div class="button" onclick="proxima()"> Próxima imagem</div>
+            </div>
+
+            <h2>Vitrine de Imóveis</h2>
+            <div class="imagemvitrine" id="barra_da_tijuca">
+            <img src="./imagens/imagembarradatijuca.png">
+            <h3>Apartamento</h3>
+            <p>Barra da Tijuca - RJ</p>
+            <p>2 Quartos</p>
+            <p>1 Vaga na Garagem</p>
+            <p>120 m²</p>
+            <div class="mostrar_mais1" onclick="veja_mais1('barra_da_tijuca')">Veja mais</div>
+            </div>
+
+            <div class="imagemvitrine" id="leblon">
+            <img src="./imagens/imagemleblon.png">
+            <h3>Apartamento</h3>
+            <p>Leblon - RJ</p>
+            <p>3 Quartos</p>
+            <p>2 Vagas na Garagem</p>
+            <p>78 m²</p>
+            <div class="mostrar_mais2" onclick="veja_mais2('leblon')">Veja mais</div>
+            </div>
+
+            <div class="imagemvitrine" id="recreio_dos_bandeirantes">
+            <img src="./imagens/imagemrecreiodosbandeirantes.png">
+            <h3>Apartamento</h3>
+            <p>Recreio dos Bandeirantes</p>
+            <p>3 Quartos</p>
+            <p>2 Vagas na Garagem</p>
+            <p>85 m²</p>
+
+            <div class="mostrar_mais3" onclick="veja_mais3('recreio_dos_bandeirantes')">Veja mais</div>
+            </div>
+            <hr>
+            <div class="imagemvitrine" id="urca">
+            <img src="./imagens/imagemurca.png">
+            <h3>Apartamento</h3>
+            <p>Urca - RJ</p>
+            <p>2 Quartos</p>
+            <p>1 Vaga na Garagem</p>
+            <p>60 m²</p>
+            <div class="mostrar_mais4" onclick="veja_mais4('urca')">Veja mais</div>
+            </div>
+
+            <div class="imagemvitrine" id="barra_da_tijuca2">
+            <img src="./imagens/imagembarradatijuca2.png">
+            <h3>Apartamento</h3>
+            <p>Barra da Tijuca - RJ</p>
+            <p>3 Quartos</p>
+            <p>1 Vaga na Garagem</p>
+            <p>74 m²</p>
+            <div class="mostrar_mais5" onclick="veja_mais5('barra_da_tijuca2')">Veja mais</div>
+            </div>
+
+            <div class="imagemvitrine" id="copacabana">
+            <img src="./imagens/imagemcopacabana.png">
+            <h3>Apartamento</h3>
+            <p>Copacabana - RJ</p>
+            <p>2 Quartos</p>
+            <p>1 Vaga na Garagem</p>
+            <p>63 m²</p>
+            <div class="mostrar_mais6" onclick="veja_mais6('capacabana')">Veja mais</div>
+            </div>
+            <hr>
+
+            <div class="button" onclick="exibir_texto()">Saiba mais</div>
+            <hr>
+
+            <h2>Últimas notícias</h2>
+            <div class="noticia">
+            <img src="./imagens/imagemnoticia1.jpg">
+            <h3>Preço dos imóveis residenciais recua em setembro</h3>
+            <p>No acumulado do ano e em 12 meses, <br>os valores seguem com avanço<br> 
+            inferior à inflação.</p>
+            <a href="https://g1.globo.com/economia/noticia/2019/10/09/preco-dos-imoveis-residenciais-recua-em-setembro-diz-fipezap.ghtml"><button>Saiba mais</button></a>
+            </div>
+
+            <div class="noticia">
+            <img src="./imagens/imagemnoticia2.jpg">
+            <h3>20% dos novos financiamentos de imóveis da Caixa já são pelo IPCA</h3>
+            <p>Lançada há um mês, modalidade é opcional e oferece juros<br>
+            de até 4,95% ao ano acrescidos da inflação no período.</p>
+            <a href="https://invest.exame.com/mf/20-dos-novos-financiamentos-de-imoveis-da-caixa-ja-sao-pelo-ipca"><button>Saiba mais</button></a>
+            </div>
+            <hr>
+
+            <div class="noticia">
+            <img src="./imagens/imagemnoticia3.jpg">
+            <h3>Compra e venda de imóveis têm alta de quase 6%</h3>
+            <p>Entre julho do ano passado e junho de 2019,<br>
+            foram comprados e vendidos cerca de 613 mil imóveis no estado.</p>
+            <a href="https://www.facebook.com/pg/corretorfonsecalocan/posts/"><button>Saiba mais</button></a>
+            </div>
+
+            <div class="noticia">
+            <img src="./imagens/imagemnoticia4.jpg">
+            <h3>Risco de bolha imobiliária aumenta na zona do euro</h3>
+            <p>Pela primeira vez em quatro anos, Londres não foi classificada<br>
+            como uma cidade com imóveis perigosamente sobrevalorizado.</p>
+            <a href="https://www.infomoney.com.br/economia/risco-de-bolha-imobiliaria-aumenta-na-zona-do-euro-alerta-ubs/"><button>Saiba mais</button></a>
+            </div>
+
+            <h2>Mais acessados</h2>
+            <div class="palavras_chave">
+            <a href="#"><button style="background-color: blue; border-radius: 40px; color: white;" >Apartamento com 2 quartos</button></a>
+            </div>
+
+            <div class="palavras_chave">
+            <a href="#"><button style="background-color: red; border-radius: 40px; color: white;">Apartamento com 2 banheiros</button></a>
+            </div>
+
+            <div class="palavras_chave">
+            <a href="#"><button style="background-color: green; border-radius: 40px; color: white;">Casa com 3 quartos</button></a>
+            </div>
+
+            <div class="palavras_chave">
+            <a href="#"><button style="background-color: black; border-radius: 40px; color: white;">Apartameto na Barra da Tijuca</button></a>
+            </div>
+
+            <div class="palavras_chave">
+            <a href="#"><button style="background-color: violet; border-radius: 40px; color: white;">Apartamento no Recreio</button></a>
+            </div>
+
+            <div class="palavras_chave">
+            <a href="#"><button style="background-color: rgb(0, 68, 255) ; border-radius: 40px; color: white;">Casa em Copacabana</button></a>
+            </div>
+
+            <h2>Localização</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.571101389727!2d-43.323869085397945!3d-23.0027940470861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd0a504c0e9d5%3A0xd9e32e880cbe8db1!2sInforce%20Inform%C3%A1tica!5e0!3m2!1spt-BR!2sbr!4v1624469341608!5m2!1spt-BR!2sbr" width="1350" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <br><br><br><br><br>
+            
+            <footer class="rodape">
+            <br>
+            <img src="./imagens/logofooter.png" style="width: 150px; height: 100px; margin-left: 45%;">
+            <a href="#">Soluções</a>
+            <a href="#">Blog</a>
+            <a href="#">Cases</a>
+            <p style="text-align: center; color: white;">&copy; Imobiliária Inforce</p>
+            </footer>
+        </body>
+</html>
